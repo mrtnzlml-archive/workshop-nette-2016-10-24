@@ -1,7 +1,7 @@
-Nette Web Project (workshop 2016-10-17)
+Nette Web Project (workshop 2016-10-24)
 --------------------------------------
 
-[![Build Status](https://travis-ci.org/mrtnzlml/workshop-nette-2016-10-17.svg?branch=master)](https://travis-ci.org/mrtnzlml/workshop-nette-2016-10-17)
+[![Build Status](https://travis-ci.org/mrtnzlml/workshop-nette-2016-10-24.svg?branch=master)](https://travis-ci.org/mrtnzlml/workshop-nette-2016-10-24)
 
 This is a simple, skeleton application using the [Nette](https://nette.org). This is meant to
 be used as a starting point for your new projects.
@@ -22,9 +22,10 @@ Installation
 The best way to install Web Project is using Composer. If you don't have Composer yet,
 download it following [the instructions](https://doc.nette.org/composer). Then use command:
 
-	git clone https://github.com/mrtnzlml/workshop-nette-2016-10-17.git workshop
+	git clone https://github.com/mrtnzlml/workshop-nette-2016-10-24.git workshop
 	cd workshop
 	composer install
+	chmod +x bin/console
 
 Make directories `temp/` and `log/` writable.
 
