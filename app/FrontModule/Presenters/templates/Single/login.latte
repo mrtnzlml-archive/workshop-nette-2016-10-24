@@ -1,0 +1,12 @@
+{block content}
+
+<div>
+	{if !$user->isLoggedIn()}
+		{control loginForm}
+	{else}
+		<p>
+			Přihlášen jako: <strong>{$user->identity->toNickname()}</strong>
+			<a n:href="signOut!">Odhlásit?</a>
+		</p>
+	{/if}
+</div>
